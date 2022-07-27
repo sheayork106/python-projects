@@ -1,3 +1,60 @@
+"""
+Completed Feb 07 2021
+PROJECT PROMPT
+
+You are running "Nook's Cranny", a store in Animal Crossing. It now sells any type of 
+good that you might need! You have received a new shipment of goods, and you'll need 
+to input them into your new inventory system, including entering their prices. But be 
+warned -- a new store has opened up run by Redd, the sneaky fox, and he's selling the 
+same goods at different prices! Who will be more successful?! 
+
+1.  Enter items into your inventory system 
+Assume your inventory system is empty. Write code to allow the user to 
+enter the items to be added to the inventory. The user should be able to add 
+as many as they want to. Then print the inventory so that you can see all of 
+the inventory items at once. 
+ 
+2.  Set a price for your items, and run some computations 
+For each item, ask the user to give you a price for that item. The currency in 
+Animal Crossing is the “bell”. Bells are whole units, and never have a decimal 
+part. Once the user has entered a price for each item, compute and show 
+them the least expensive item, the most expensive item, and the average 
+item cost. The Nook family (the managers of the store) are very particular, 
+and they want the average cost to be displayed with 3 decimal points of 
+precision. 
+ 
+3.  Set up Redd’s counterfeit goods store 
+Your competitor is Redd, a fox who sometimes sells counterfeit goods. 
+Choose a name for Redd’s store and show it to the user. Redd’s store sells all 
+the same items as yours, but at different prices, so you will need to have 
+another copy of the inventory for it. Redd charges more for some items (a 
+markup) and less for others (a discount). Take each item, and randomly 
+mark it up or discount it. Redd never marks an item up by more than 35 
+bells, and he never discounts it by more than 20 bells. He also never allows 
+the price of an item (after a discount) to be less than 1 bell. You should have 
+at least 6 possible markups and discounts, including the possibility that 
+the price is the same (a markup/discount of 0). For each item, show how 
+Redd’s price is different from yours using formatted output. 
+ 
+4.  Compare your store’s sales with Redd’s store sales 
+In this part of the project, you’ll talk about sales. Ask the user to tell you how 
+many items the customers buy. Then, randomly choose that many items 
+from each store to go into customers’ carts. You can sell each item as much 
+as you want. Show the total bells (money) earned by each store for all sales 
+there, as well as which items were sold by each store. Compare the totals, 
+and output whether Nook’s Cranny made more money, or Redd did, or 
+whether they made the same amount. 
+ 
+5.  BONUS: Compare specific items from both stores 
+For up to 10 points of Bonus, compare the specific goods sold by Nook’s 
+Cranny to the specific goods sold by Redd. If both stores sold the same goods 
+(no matter the amount), say so. If Nook’s Cranny sold all the goods sold by 
+Redd and more (at least one good not sold by Redd), say so. Otherwise, say 
+what Redd sold that Nook’s Cranny didn’t.
+
+"""
+
+
 # STEP 1: Let Nook or the Nooklings enter the items and prices
 nooks_cranny = { }
 redds_corner = { }
